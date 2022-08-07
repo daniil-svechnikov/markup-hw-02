@@ -1,0 +1,230 @@
+/* основной текст лого #000000
+цвет акцента #2196F3
+основнной цвет задника #FFFFFF
+вторичный цвет задника #F5F4FA
+цвет текста #212121
+цвет вторичного вторичного #757575
+цвет задника у героя #2F303A
+ */
+
+ :root {
+    --primary-text-color: #212121;
+    --akcent-text-color: #2196F3;
+    --head-bcg-color: #FFFFFF;
+    --secondary-bcg-color: #F5F4FA;
+    --logo-text-color: #000000;
+    --secondary-text-color: #757575;
+    --hero-bcg-color: #2F303A;
+    --primary-bcg-color: #E5E5E5;
+    --footer-link-color: rgba(255, 255, 255, 0.6);
+ }
+
+ /* body {
+    background-color: var(--primary-bcg-color);
+ }
+  */
+ 
+body{
+    background-color: var(--primary-bcg-color);
+    font-family: Roboto, sans-serif;
+} 
+
+.nav {
+    color: var(--secondary-text-color);
+ }
+
+.site-nav .nav {
+    color: var(--primary-text-color);
+}
+
+.button {
+    color: var(--primary-text-color);
+    background-color: var(--secondary-bcg-color);
+    font-family: inherit;
+}
+
+.button.nav:hover,
+.button.nav:focus{
+    color: var(--head-bcg-color);
+    background-color: var(--akcent-text-color);
+}
+
+.button.now:hover,
+.button.now:focus{
+    color: var(--logo-text-color);
+
+}
+
+.button.primary {
+    background-color: var(--akcent-text-color);
+    color: var(--primary-bcg-color);
+}
+
+.button.secondary {
+    color: var(--akcent-text-color);
+    background-color: var(--primary-bg-color);
+}
+
+.hero.text{
+    color: var(--head-bcg-color);
+    font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        text-align: center;
+        text-transform: uppercase;
+}
+
+.button.hero{
+    font-weight: 700;
+        font-size: 16px;
+        line-height: 1.87;
+        display: flex;
+        align-items: center;
+        text-align: center;
+}
+
+.hero{
+    background-color: var(--hero-bcg-color);
+}
+
+.logo{
+    color: var(--primary-text-color);
+    font-family: Raleway, sans-serif;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+
+}
+
+.logo:focus,
+.logo:hover,
+.logo.footer:focus,
+.logo.footer:hover{
+    color: var(--akcent-text-color);
+}
+
+.logo.footer{
+    color: var(--head-bcg-color);
+}
+
+.Web{
+    color: var(--akcent-text-color);
+}
+
+.secondary.bcg{
+    background-color: var(--secondary-bcg-color);
+}
+
+.footer.bcg{
+    background-color: var(--hero-bcg-color);
+}
+
+.header.bcg{
+    background-color: var(--head-bcg-color);
+}
+
+.primary.text{
+    color: var(--primary-text-color);
+}
+
+.footer.bcg{
+    color: var(--head-bcg-color);
+}
+
+.nav{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+}
+
+.nav:hover,
+.nav:focus{
+    color: var(--akcent-text-color);
+}
+
+.nav.current{
+    color: var(--akcent-text-color);
+}
+
+.nav.current:hover,
+.nav.current:focus{
+    color: var(--logo-text-color);
+}
+
+.text{
+    color: var(--secondary-text-color);
+}
+
+.footer.text{
+    color: var(--head-bcg-color);
+}
+
+.cards{
+    background-color: var(--head-bcg-color);
+}
+
+.quality h3{
+    font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        text-transform: uppercase;
+}
+
+h2{
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.16;
+        text-align: center;
+}
+
+.person h3{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+}
+
+.person p{
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.18x;
+        text-align: center;
+}
+
+.primary.bgc p{
+    font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+}
+
+.header.bcg ul,
+.footer.bcg ul{
+    font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+}
+
+.button.nav{
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;
+}
+
+.all h2{
+    font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        text-align: justify;
+}
+
+.all p{
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.87;
+}
+
+address{
+    font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+}
