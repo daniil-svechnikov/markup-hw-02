@@ -24,6 +24,7 @@
  }
   */
  
+  /* оформление цвета текста */
 body{
     background-color: var(--primary-bcg-color);
     font-family: Roboto, sans-serif;
@@ -65,36 +66,10 @@ body{
     background-color: var(--primary-bg-color);
 }
 
-.hero.text{
-    color: var(--head-bcg-color);
-    font-weight: 900;
-        font-size: 44px;
-        line-height: 1.36;
-        text-align: center;
-        text-transform: uppercase;
-}
-
-.button.hero{
-    font-weight: 700;
-        font-size: 16px;
-        line-height: 1.87;
-        display: flex;
-        align-items: center;
-        text-align: center;
-}
-
 .hero{
     background-color: var(--hero-bcg-color);
 }
 
-.logo{
-    color: var(--primary-text-color);
-    font-family: Raleway, sans-serif;
-        font-weight: 700;
-        font-size: 26px;
-        line-height: 1.19;
-
-}
 
 .logo:focus,
 .logo:hover,
@@ -131,12 +106,6 @@ body{
     color: var(--head-bcg-color);
 }
 
-.nav{
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-}
-
 .nav:hover,
 .nav:focus{
     color: var(--akcent-text-color);
@@ -163,10 +132,12 @@ body{
     background-color: var(--head-bcg-color);
 }
 
+/* оформление размера и расположения текста */
 .quality h3{
     font-weight: 700;
         font-size: 14px;
         line-height: 1.14;
+        letter-spacing: 0.03em;
         text-transform: uppercase;
 }
 
@@ -174,6 +145,7 @@ h2{
     font-weight: 700;
         font-size: 36px;
         line-height: 1.16;
+        letter-spacing: 0.03em;
         text-align: center;
 }
 
@@ -181,6 +153,7 @@ h2{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
+    letter-spacing: 0.03em;
     text-align: center;
 }
 
@@ -202,12 +175,14 @@ h2{
     font-weight: 500;
         font-size: 14px;
         line-height: 1.14;
+        letter-spacing: 0.03em;
 }
 
 .button.nav{
     font-weight: 500;
         font-size: 16px;
         line-height: 1.62;
+        letter-spacing: 0.03em;
 }
 
 .all h2{
@@ -228,3 +203,45 @@ address{
         font-size: 14px;
         line-height: 1.71;
 }
+
+.hero.text {
+    color: var(--head-bcg-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.button.hero {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.logo {
+    color: var(--primary-text-color);
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+
+}
+
+.nav {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+p{
+    letter-spacing: 0.03em;
+}
+
