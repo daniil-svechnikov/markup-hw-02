@@ -6,7 +6,7 @@
 цвет вторичного вторичного #757575;
 цвет задника у героя #2F303A;
  */
- 
+
  :root {
     --primary-text-color: #212121;
     --akcent-text-color: #2196F3;
@@ -80,7 +80,7 @@ body{
     color: var(--head-bcg-color);
 }
 
-.Web{
+.web{
     color: var(--akcent-text-color);
 }
 
@@ -223,8 +223,4 @@ body{
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-}
-
-.ghost{
-    display: none;
 }
